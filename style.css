@@ -11,4 +11,28 @@
   font-family: "Lexend Deca";
   font-size: 15px;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: seagreen;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+.card h1 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
 }
