@@ -30,9 +30,32 @@ body {
   max-width: 1000px;
   margin: auto;
   display: flex;
+  flex-direction: row;
 }
 
 .card h1 {
   font-family: "Big Shoulders Display";
   font-weight: 700;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedan-card {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv-card {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury-card {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.learn-more {
+  color: white;
+}
+
+.learn-more-link {
+  text-decoration: none;
 }
