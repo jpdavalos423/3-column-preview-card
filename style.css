@@ -26,8 +26,8 @@ body {
 }
 
 .card {
-  background-color: seagreen;
   max-width: 1000px;
+  height: 500px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -36,24 +36,34 @@ body {
 .card h1 {
   font-family: "Big Shoulders Display";
   font-weight: 700;
+  font-size: 40px;
 }
 
 .card p {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.sedan-card {
-  background-color: hsl(31, 77%, 52%);
+.car-card {
+  padding: 50px;
 }
-.suv-card {
+
+#sedan-card {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+#suv-card {
   background-color: hsl(184, 100%, 22%);
 }
-.luxury-card {
+#luxury-card {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
 }
 
 .learn-more {
-  color: white;
+  /* color: transparent; */
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px 25px;
+  border-radius: 180px;
 }
 
 .learn-more-link {
