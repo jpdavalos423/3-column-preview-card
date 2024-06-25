@@ -41,10 +41,14 @@ body {
 
 .card p {
   color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
 }
 
 .car-card {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #sedan-card {
