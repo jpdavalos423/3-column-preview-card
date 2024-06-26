@@ -29,6 +29,7 @@ body {
   max-width: 925px;
   height: 500px;
   margin: auto;
+  margin: 0 15px;
   display: flex;
   flex-direction: row;
 }
@@ -52,6 +53,22 @@ body {
   justify-content: space-between;
 }
 
+.learn-more {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  padding: 15px 25px;
+  border-radius: 180px;
+  max-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+}
+
+.learn-more-link {
+  text-decoration: none;
+}
+
 #sedan-card {
   background-color: hsl(31, 77%, 52%);
   border-radius: 10px 0 0 10px;
@@ -59,12 +76,20 @@ body {
 #sedan-card .learn-more {
   color: hsl(31, 77%, 52%);
 }
+#sedan-card .learn-more:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
 
 #suv-card {
   background-color: hsl(184, 100%, 22%);
 }
 #suv-card .learn-more {
   color: hsl(184, 100%, 22%);
+}
+#suv-card .learn-more:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
 }
 
 #luxury-card {
@@ -74,17 +99,7 @@ body {
 #luxury-card .learn-more {
   color: hsl(179, 100%, 13%);
 }
-
-.learn-more {
-  background-color: hsl(0, 0%, 95%);
-  padding: 15px 25px;
-  border-radius: 180px;
-  max-width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.learn-more-link {
-  text-decoration: none;
+#luxury-card .learn-more:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
 }
