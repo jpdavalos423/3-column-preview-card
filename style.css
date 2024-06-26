@@ -103,3 +103,23 @@ body {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
 }
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    max-width: 325px;
+    height: 1500px;
+    margin: 100px 15px;
+  }
+
+  .card p {
+    padding-bottom: 25px;
+  }
+
+  #sedan-card {
+    border-radius: 10px 10px 0 0;
+  }
+  #luxury-card {
+    border-radius: 0 0 10px 10px;
+  }
+}
